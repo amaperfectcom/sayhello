@@ -1,0 +1,20 @@
+{
+  "name": "sayhello/sayhello",
+  "description": "test the repository for every dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "movseng",
+      "email": "php.movseng2007@gmail.com"
+    }
+  ],
+  "require":{
+    "php":">=5.3.0",
+    "phpunit/php-timer":"*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SayHello\\": "SayHello/"
+    }
+  }
+}
